@@ -25,4 +25,6 @@ defmodule PolychatElixirBackend do
       end
     end
   end
+
+  spawn PolychatElixirBackend.Websocket.run
 end

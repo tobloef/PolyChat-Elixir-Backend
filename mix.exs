@@ -21,7 +21,8 @@ defmodule PolychatElixirBackend.Mixfile do
     [
       {:maru, "~> 0.11"},
       {:ecto, "~> 2.1"},
-      {:mariaex, "~> 0.8.2"}
+      {:mariaex, "~> 0.8.2"},
+      {:socket, "~> 0.3.11"}
     ]
   end
 end
